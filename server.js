@@ -2,7 +2,7 @@ let http = require('http')
 let users = [
     { id: 1, name: '啦啦啦' },
     { id: 2, name: '撒旦撒旦' },
-    { id:3, name: '测试能否检测dao1后端代码更新' }
+    { id:3, name: '测试能否检测后端代码更新' }
 ]
 let server = http.createServer(function (req, res) {
     res.setHeader('Access-Control-Allow-Origin','*')
