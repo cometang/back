@@ -9,8 +9,7 @@ lib
 node_modules
 .idea
 package-lock.json
-Dockerfile
-.dockerignore
+
 
 # Log files
 npm-debug.log*
