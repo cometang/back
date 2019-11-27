@@ -1,8 +1,8 @@
 let http = require('http')
 let users = [
-    { id: 1, name: '啦啦啦' },
-    { id: 2, name: '撒旦撒旦' },
-    { id:3, name: '测试能否检测pm2+webhook后端代码更新' }
+    { id: 1, name: 'aaa' },
+    { id: 2, name: 'bbb' },
+    { id:3, name: 'c+cccc' }
 ]
 let server = http.createServer(function (req, res) {
     res.setHeader('Access-Control-Allow-Origin','*')

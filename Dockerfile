@@ -1,4 +1,4 @@
-FROM node
+From node
 LABEL name = "back"
 LABEL version ="1.0"
 COPY . /app
